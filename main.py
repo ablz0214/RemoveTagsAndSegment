@@ -7,7 +7,7 @@ import re
 from . import util
 
 # 注册插件
-@register(name="DeepSeekR1nothink", description="remove think info for DeepSeekR1 model", version="0.1", author="planecn")
+@register(name="RemoveTagsAndSegment", description="remove think info for DeepSeekR1 model", version="0.1", author="ablz")
 class URLMaskerPlugin(Plugin):
 
     # 插件加载时触发
